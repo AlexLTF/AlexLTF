@@ -1,0 +1,240 @@
+.mainBanner {
+  text-align: center;
+  padding-top: 1.5%;
+  padding-bottom: 2%;
+}
+
+.img1 {
+ width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.navbar {
+ margin: 0;
+ padding: 0;
+ background-color:rgb(232, 4, 4);
+ box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1)
+ 
+}
+
+.navbar ul{
+  margin-top: 0;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+}
+
+.navbar li{
+  height: 50px;
+ 
+}
+
+.navbar a{
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.navbar a:hover {
+ background-color: black;
+}
+
+.driverInfoHeader h1{
+  background-color:rgb(232, 4, 4);
+  color: white;
+  margin-top: 2%;
+  padding: 0.6%;
+  padding-left: 2%;
+}
+
+.driverInfoHeader h2 {
+  padding: 2%;
+}
+
+#name {
+ margin-left: 2%;
+ 
+}
+
+#data-container1 {
+  padding: 2%;
+ 
+}
+
+.racingTelemetryHeader h2{
+  padding: 2%;
+}
+
+
+
+.section-title {
+  background-color:rgb(232, 4, 4);
+  color: white;
+  padding-left: 2%;
+  margin: 0; 
+  padding: 1.5% ; 
+}
+
+#data-container3 {
+  padding: 2%;
+}
+
+.circuitInfoHeader h1{
+  background-color:rgb(232, 4, 4);
+  color: white;
+  margin-top: 2%;
+  margin-left: 0;
+  padding: 0.6%;
+  padding-left: 2%;
+}
+
+.circuitInfoHeader h2{
+  padding: 2%;
+}
+
+.circuitInput {
+  padding-left: 2%;
+}
+
+
+
+#data-container2 h1 {
+  background-color:rgba(21,21,30,255);
+  color: white;
+  margin-top: 2%;
+  margin-left: 0;
+  padding: 0.6%;
+  padding-left: 2%;
+}
+
+#data-container2 h3 {
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+ #telemetryNumber{
+ margin-left: 2%;
+}
+
+.stintHeader h2{
+  margin-left: 2%;
+}
+
+.stintInput{
+  margin-left: 2%;
+}
+
+
+.controlInput{
+  margin-left: 2%;
+}
+
+.controlHeader h2{
+  margin-left: 2%;
+}
+
+.pitInput {
+  margin-left: 2%;
+}
+
+.pitHeader h2 {
+  margin-left: 2%;
+}
+
+/* Dropdown Menu */
+
+.section-title {
+  font-size: 1.5em;
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+    width: 100%; 
+    color: white; 
+  
+}
+
+.arrow {
+  font-size: 0.8em;
+  transition: transform 0.3s ease;
+  margin-left: 10px;
+  
+}
+
+.arrow.expanded {
+  transform: rotate(180deg); /* Rotate the arrow when expanded */
+}
+
+.section-content {
+  padding: 10px;
+  display: none; /* Hidden by default */
+}
+
+.background-wrapper {
+  position: relative; 
+  min-height: 100vh; 
+  width: 100%; 
+  overflow: hidden; 
+}
+
+.background-wrapper .img2 {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+#fetchButton, #fetchButton2, #fetchButton3, #fetchButton4, #fetchButton5, #fetchButton6, #fetchButton7 {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border-style: solid;
+  border:none;
+  font-size: 75%;
+  padding: 1% 2.5%;
+  text-align: center;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+#fetchButton2:hover, #fetchButton4:hover, #fetchButton5:hover, #fetchButton6:hover, #fetchButton7:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid red;
+  
+}
+
+#data-container3 h1 {
+  background-color: red;
+  color: white;
+  padding: 2%;
+  margin-left: 0;
+}
+
+.weatherHeader h2, h3 {
+  padding-left: 2%;
+}
+
+.weatherInput {
+  padding-left: 2%;
+}
+
+#data-container7 h1 {
+  background-color:rgba(21,21,30,255);
+  color: white;
+  margin-top: 2%;
+  margin-left: 0;
+  padding: 0.6%;
+  padding-left: 2%;
+}
