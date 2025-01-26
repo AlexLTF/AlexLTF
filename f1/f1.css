@@ -210,15 +210,15 @@ body {
 #fetchButton, #fetchButton2, #fetchButton3, #fetchButton4, #fetchButton5, #fetchButton6, #fetchButton7 {
   background-color: red;
   color: white;
-  border-style: solid;
-  border:none;
-  font-size: 75%;
+  border-style: none;
+  border-radius: 50px;
   padding: 1% 2.5%;
   text-align: center;
   transition-duration: 0.3s;
   cursor: pointer;
-  height: 10%;
-  width: 10%;
+  height: 100%;
+  line-height: 5%;
+  font-size: 75%;
 }
 
 #fetchButton2:hover, #fetchButton4:hover, #fetchButton5:hover, #fetchButton6:hover, #fetchButton7:hover {
